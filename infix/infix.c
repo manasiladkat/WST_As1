@@ -31,7 +31,7 @@ int precedence(char op) {
 int ctop(cstack *cs) {
 	char x = cpop(cs);
 	cpush(cs, x);
-	return x++;
+	return x;
 }
 int operation(int y , int x , char op) {
 	switch(op) {
