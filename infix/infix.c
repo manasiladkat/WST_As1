@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "cstack.h"
+#include "stack.h"
 #include "token.h"
 #include "stack.h"
 #include <limits.h>
