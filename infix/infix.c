@@ -138,5 +138,6 @@ int main( {
 		}  
 		else
 			fprintf(stdout, "%d\n", ans);
+	return 0;
 	}
 }
