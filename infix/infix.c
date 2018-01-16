@@ -28,7 +28,7 @@ int precedence(char op) {
 		return 1;
 	return 0;
 }
-int ctop(cstack *cs) {
+char ctop(cstack *cs) {
 	char x = cpop(cs);
 	cpush(cs, x);
 	return x++;
