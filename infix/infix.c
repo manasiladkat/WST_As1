@@ -127,7 +127,7 @@ int infixeval(char *str) {
 	}
 			
 }
-int main( {
+int main() {
 	char str[128];
 	int x, ans;
 	while((x = readline(str, 128))) {
