@@ -61,7 +61,7 @@ int infixeval(char *str) {
 	char x;
 
 	init(&s);	
-	cinit(&cs)
+	cinit(&cs);
 	while(1) {
 		t = getnext (str);
 		if(t->type == OPERAND) {
