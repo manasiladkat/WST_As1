@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "cstack.h"
 #include "token.h"
-
+#include "stack.h"
 #include <limits.h>
 int reset=0;
 int readline(char *arr, int len) {
